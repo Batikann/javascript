@@ -1,6 +1,15 @@
-const randomNumber=Math.floor(Math.random()*10);
-console.log(randomNumber);
+const person = [
+  {
+    name: "Adem",
+    age: 25,
+    languages: ["JavaScript", "CSS"],
+  },
+  {
+    name: "Oğuz",
+    age: 33,
+    languages: ["Java", "HTML"],
+  },
+];
 
-const val=document.getElementById("#textValue").value
-
-button.ca
+let newArray = person.filter(p=>p.languages.includes("JavaScript"))
+console.log(newArray);

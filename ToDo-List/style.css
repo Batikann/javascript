@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+body {
+  background-color: #34495e;
+}
+
+.form-inline {
+  display: flex;
+}
+
+.header {
+  background-color: #3498db;
+  
+}
+
+#h2-image {
+  width: 6rem;
+  height: 6rem;
+  margin-bottom: 3rem;
+}
+
+.text-div {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.span-text {
+  color: #ecf0f1;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+
+.form-div {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #27ae60;
+  color: #ecf0f1;
+  font-weight: 400;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  height: 4rem;
+  width: 10rem;
+  margin-bottom: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  background-color: #1abc9c;
+  color: #ecf0f1;
+}
+
+.text-input {
+  width: 50rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+.text-input:focus {
+  outline: none;
+  border: 2px solid #9b59b6;
+}
+
+.text-input:hover {
+  border: 2px solid #9b59b6;
+  border-radius: 0.5rem;
+}
+
+
+.btn-close{
+    float: right;
+}
+
+.list-group-item{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.list-group-item:hover{
+    cursor: pointer;
+    background-color: #bdc3c7;
+}
+
+.btn-class{
+    color: #ecf0f1;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#markAll{
+    background-color: #009432;
+    float: right;
+
+}
+
+#toast-body-success{
+    background-color: #27ae60;
+    display: grid;
+    align-content: center;
+    height: 5rem;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+#markAll:hover{
+    opacity: 0.8;
+}
+
+#clearAll{
+    background-color: #EA2027;
+}
+
+#clearAll:hover{
+    opacity: 0.8;
+}
+
+.hidden-li{
+    visibility: hidden;
+}
+
+.animation{
+    visibility: hidden;
+  }

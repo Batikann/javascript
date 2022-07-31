@@ -1,0 +1,61 @@
+body{
+    background-color: #70a1ff;
+}
+
+
+#card1{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    margin-left: 20rem;
+    margin-top: 15rem;
+}
+
+#card2{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    margin-left: 55rem;
+    margin-top: -20rem;
+    text-align: center;
+  
+}
+
+#card2-after{
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    margin-left: 55rem;
+    margin-top: -20rem;
+    text-align: center;
+}
+
+.card-header{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card-body{
+    font-size: 1.2rem;
+}
+
+#point{
+    margin-bottom: 1rem;
+}
+
+.content{
+    margin-top: 8rem;
+}
+
+#username-text{
+    font-weight: 700;
+}
+
+#point-text{
+    font-weight: 700;
+}
+
+.wrapper1{
+    visibility: hidden;
+}
+

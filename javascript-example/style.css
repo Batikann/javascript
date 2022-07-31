@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+#userList{
+    padding: 5rem;
+}
